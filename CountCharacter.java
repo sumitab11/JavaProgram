@@ -12,7 +12,7 @@ public class CountCharacter {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the string:");
 		s = sc.nextLine();
-
+                sc.close();
 		for (int i = 0; i < s.length(); i++) {
 			if (s.charAt(i) != ' ') {
 				count++;
