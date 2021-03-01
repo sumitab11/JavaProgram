@@ -12,6 +12,7 @@ public class Palindrome {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter a string:");
 		original = sc.nextLine();
+		sc.close();
 		int length = original.length();
 
 		for (int i = length - 1; i >= 0; i--) {
